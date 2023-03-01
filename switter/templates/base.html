@@ -8,14 +8,20 @@
     <title>Switter</title>
 </head>
 <body>
-  <section>
-    <h1>Switter</h1>
-    <p>Соцсеть для любителей вязать</p>
+  <section class="hero is-small is-success mb4">
+        <div class="hero-body">
+            <h1 class="title is-1">Switter</h1>
+            <p class="subtitle is-4">
+                Соцсеть для любителей вязать
+            </p>
+       </div>
   </section>
-  <div>
-    {% block content %}
+  <div class="container">
+      <div class="columns">
+           {% block content %}
 
-    {% endblock content %}
+            {% endblock content %}
+        </div>
   </div>
 </body>
 </html>
